@@ -1,0 +1,12 @@
+{
+	"name": "stylus-utilus",
+	"version": "1.2.2",
+    "license": "MPL-2.0",
+	"ignore": [
+		".*",
+		"test/**",
+		"Gruntfile.js",
+		"bower.json",
+		"package.json"
+	]
+}

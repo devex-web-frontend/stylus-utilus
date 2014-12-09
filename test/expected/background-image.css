@@ -1,0 +1,63 @@
+.background-image-test-1 {
+	background-image: url("x.png");
+}
+.background-image-test-2 {
+	background-image: url("x.png"), url("y.png");
+}
+.background-image-test-3 {
+	background-image: linear-gradient(#000, #fff);
+}
+.background-image-test-4 {
+	background-image: linear-gradient(#000, #fff), linear-gradient(#fff, #000);
+}
+.background-image-test-5 {
+	background-image: url("x.png");
+	background-repeat: no-repeat;
+}
+.background-image-test-6 {
+	background-image: url("x.png");
+	background-position: left top;
+	background-repeat: repeat-x;
+}
+.background-image-test-7 {
+	background-image: url("x.png");
+	background-position: right bottom;
+	background-repeat: repeat-y;
+}
+.background-image-test-8 {
+	background-image: url("x.png");
+	background-position: center center;
+}
+.background-image-test-9 {
+	background-image: url("x.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.background-image-test-9-1 {
+	background-image: url("x.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.background-image-test-10 {
+	background-image: url("x.png");
+	background-position: center top;
+	background-repeat: repeat-x;
+}
+.background-image-test-10-1 {
+	background-image: url("x.png");
+	background-position: center top;
+	background-repeat: repeat-x;
+}
+.background-image-test-11 {
+	background-image: url("x.png");
+	background-position: 10px 10px;
+}
+.background-image-test-12 {
+	background-image: url("x.png") ;
+	background-position: 10px 90px;
+}
+.background-image-test-13 {
+	background-image: url("x.png");
+	background-position: 50px 10px;
+	background-repeat: no-repeat;
+}

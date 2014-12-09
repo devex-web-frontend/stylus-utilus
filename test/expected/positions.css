@@ -1,0 +1,42 @@
+.test-positions-1 {
+	position: fixed;
+	top: 0;
+}
+.test-positions-2 {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.test-positions-3 {
+	position: absolute;
+	top: 100px;
+	left: 0;
+	right: 7px;
+}
+.test-positions-4 {
+	position: absolute;
+	top: 100px;
+	left: 0;
+	right: 7px;
+	bottom: auto;
+}
+.test-positions-5 {
+	position: relative;
+	top: 10px;
+}
+.test-positions-6 {
+	position: relative;
+	top: 10px;
+	right: 0;
+}
+.test-positions-7 {
+	position: relative;
+	top: 10px;
+	z-index: 10;
+}
+.test-positions-8 {
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+	right: 90%;
+}

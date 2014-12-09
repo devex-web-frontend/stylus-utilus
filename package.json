@@ -1,0 +1,15 @@
+{
+  "name": "stylus-utilus",
+  "version": "1.2.2",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-stylus": "~0.8.0",
+    "grunt-contrib-clean": "~0.5.0",
+	  "bower": "git://github.com/devex-web-frontend/bower#v1.2.7-dx.0.0.1",
+	  "grunt-exec": "~0.4.2"
+  },
+	"scripts": {
+		"test": "grunt test"
+	}
+}

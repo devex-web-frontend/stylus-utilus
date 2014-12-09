@@ -1,0 +1,17 @@
+.test-display-1 {
+	display: block;
+}
+.test-display-2 {
+	display: none;
+}
+.test-display-3 {
+	display: inline-block;
+	vertical-align: middle;
+}
+.test-display-4 {
+	display: table;
+	table-layout: fixed;
+}
+.test-display-5 {
+	display: block !important;
+}

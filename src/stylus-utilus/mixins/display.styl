@@ -1,0 +1,22 @@
+/**
+ * @copyright Devexperts
+ */
+
+/*
+ * Usage:
+ * display: block;
+ * display: inline;
+ * display: inline-block;
+ * display: fixed-table;
+*/
+display($displayProp, args...) {
+	if ($displayProp == inline-block) {
+		display: $displayProp args;
+		vertical-align: middle;
+	} else if ($displayProp == fixed-table) {
+		display: table args;
+		table-layout: fixed;
+	} else {
+		display: $displayProp args;
+	}
+}
